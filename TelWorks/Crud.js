@@ -1,3 +1,4 @@
+const { log } = require("console");
 const fs = require("fs");
 
 // // 1.Write File
