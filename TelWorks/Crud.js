@@ -46,3 +46,36 @@ const fs = require("fs");
 // });
 // fs.appendFile("./test2.txt", "\nHeyloooo", (err) => {});
 // fs.unlink("./test2.txt", (err) => {});
+
+//Working wih folders
+// // 1.Make directory
+// fs.mkdir("MyFolder", (err) => {
+//   if (!err) {
+//     console.log("Folder created");
+//   }
+// });
+
+// // 2.Remove or delete directory
+// fs.rmdir("MyFolder", (err) => {
+//   if (!err) {
+//     console.log("Folder deleted");
+//   }
+// });
+
+// // 3.Read directory
+// fs.readdir("TelWorks", "utf-8", (err, result) => {
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     console.log(result);
+//   }
+// });
+
+// //Error Handling in FS
+// fs.readFile("falseFile.txt", "utf-8", (err, result) => {
+//   if (err) {
+//     console.log("Error occured!", err);
+//   } else {
+//     console.log(result);
+//   }
+// });
