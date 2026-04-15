@@ -1,0 +1,6 @@
+Hey Iam Synchronous
+Hey there I got appended
+Hey there I got appended and Im Asynchronous
+Hey there I got appended and Im Asynchronous
+Hey there I got appended
+Hey there I got appended
