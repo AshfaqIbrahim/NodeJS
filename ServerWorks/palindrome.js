@@ -14,11 +14,11 @@ const server = http.createServer((req, res) => {
       return;
     }
 
-    // //option 2 using loops
-    // let reversed = "";
-    // for (let i = str.length - 1; i >= 0; i--) {
-    //   reversed += str[i];
-    // }
+    //option 2 using loops
+    let reversed = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+      reversed += str[i];
+    }
 
     //Option 1 using methods
     const reversed = str.split("").reverse().join("");

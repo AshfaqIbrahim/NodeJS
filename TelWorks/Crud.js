@@ -11,7 +11,7 @@ fs.writeFile("./TelWorks/test.txt", "Hello, This is a test", (err) => {});
 //Sync
 const result = fs.readFileSync("./TelWorks/contacts.txt", "utf-8");
 console.log(result);
-
+  
 //Async
 fs.readFile("./TelWorks/contacts.txt", "utf-8", (err, result) => {
   if (err) {
